@@ -1,13 +1,12 @@
 package feast.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Pig4 {
 
 
-    private Lamb5 lamb5;
+    private final Lamb5 lamb5;
 
     public Pig4 (Lamb5 lamb5) {
         this.lamb5 = lamb5;

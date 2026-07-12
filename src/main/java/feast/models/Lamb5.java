@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Lamb5 {
 
-    private Goat6 goat6;
+    private final Goat6 goat6;
 
     public Lamb5(Goat6 goat6) {
         this.goat6 = goat6;
