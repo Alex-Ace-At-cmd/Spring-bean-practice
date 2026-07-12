@@ -15,6 +15,6 @@ public class Pig4 {
 
     @Override
     public String toString() {
-        return "which is stuffed inside a lamb, ";
+        return "which is stuffed inside a lamb, " + lamb5.toString();
     }
 }
